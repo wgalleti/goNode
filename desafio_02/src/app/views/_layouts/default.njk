@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "_partials/head.njk" %}
+<style>
+a.schedule {
+    background: #7159c1;
+    text-decoration: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    color: #fff;
+}
+</style>
+<body>
+<div class="main-wrapper">
+  {% block body %} {% endblock %}
+</div>
+</body>
+</html>
